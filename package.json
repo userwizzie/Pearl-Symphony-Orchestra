@@ -3,8 +3,13 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
   "scripts": {
     "dev": "vite",
+    "api": "node --env-file-if-exists=.env server/admin-api.mjs",
+    "admin:provision": "node --env-file-if-exists=.env server/admin-api.mjs --provision-admin",
     "build": "vite build",
     "preview": "vite preview"
   },

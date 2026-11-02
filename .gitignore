@@ -7,3 +7,5 @@ npm-debug.log*
 yarn-debug.log*
 pnpm-debug.log*
 /Pearl Symphony/
+/data/
+/storage/uploads/
